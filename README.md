@@ -1,6 +1,6 @@
 # GoScan 
 
-A concurrent golang based network scanner. 
+A concurrent golang based host-detection network scanner implemented with the ARP protocol. 
 
 ## Install Dependancies 
 
@@ -27,8 +27,8 @@ Scanning on interface: en0
 Polling for packets...
 Writing ARP Requests.
 Stopped polling for packets.
-Host IP: 10.0.2.55 	    Type: net.IP
-Host IP: 10.0.2.56 	    Type: net.IP
+Host IP: 10.0.2.55      Type: net.IP
+Host IP: 10.0.2.56      Type: net.IP
 Host IP: 10.0.2.63      Type: net.IP
 Host IP: 10.0.2.136     Type: net.IP
 Host IP: 10.0.2.148     Type: net.IP
